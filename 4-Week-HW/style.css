@@ -1,0 +1,35 @@
+body {
+  text-align: center;
+  background-image: url("https://i.imgur.com/NSfNmCB.jpg");
+  background-size: inherit;
+}
+h2 {
+  font-size: 70px;
+  color: white;
+}
+
+.border {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Twenty_One_Pilots%2C_Portsmouth_Wedgewood_Rooms_%2812811272854%29.jpg/800px-Twenty_One_Pilots%2C_Portsmouth_Wedgewood_Rooms_%2812811272854%29.jpg");
+  background-size: cover;
+  background-position: center;
+  font-size: 50px;
+  color: white;
+  border: 15px solid grey;
+  padding: 0.5px;
+  margin: 1px;
+  text-shadow:3px 3px black;
+
+}
+#Bio {
+  font-size: 40px;
+  color: rgb(247, 247, 243);
+  text-shadow: 3px 3px 8px rgb(228, 10, 10);
+}
+main > ul {
+  color: red;
+  font-size: 40px;
+}
+.hyperlink {
+  color: rgb(245, 8, 8);
+  text-shadow: 3px 3px black;
+}
