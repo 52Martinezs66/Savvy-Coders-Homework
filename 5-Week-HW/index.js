@@ -2183,7 +2183,10 @@ console.log(user5Posts);
 //Fifth Bullet Point Homework Done
 const user5TitleBody = [];
 user5Posts.forEach(user5Posts => {
-  let pairs = { Title: user5Posts.title, Body: user5Posts.body };
+  let pairs = {
+    Title: user5Posts.title,
+    Body: user5Posts.body.replace(/(\n)/g, "")
+  };
   user5TitleBody.push(pairs);
 });
 console.log(user5TitleBody);
